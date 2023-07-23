@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.nav-logo-icon {
+    height: 70px;
+    width: 80px;
+}
+
+#navitem1 {
+    color: #000000;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+#navitem2 {
+    color: #000000;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+#navitem3 {
+    color: #000000;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.top-section {
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20210912/pngtree-aesthetic-background-pink-pastel-image_866344.jpg");
+    height: 360vh;
+    background-size: cover;
+}
+
+.middle-container {
+    background-image: url("https://img.freepik.com/free-photo/handsome-men-beautiful-woman-outside-sun_23-2148803616.jpg?w=1480&t=st=1689590646~exp=1689591246~hmac=18f4e4c2ca07e5e5b946670233f22ccb84c62d6afd3c63851074902c50296082");
+    background-size: cover;
+    height: 80vh;
+    background-position: center center;
+
+}
+
+
+@keyframes bounce {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-20px);
+    }
+
+    60% {
+        transform: translateY(-10px);
+    }
+}
+
+.mon-head {
+    color: #DE3163;
+    font-family: "Roboto";
+    font-size: 50px;
+    font-weight: 600;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.blink-text {
+    animation: blink 1s infinite;
+}
+
+.bounce {
+    animation: bounce 1s infinite;
+}
+
+
+.Footer_section {
+    background-color: transparent;
+}
+
+
+
+.icon {
+    font-size: 26px;
+    color: #DE3163;
+}
+
+.icon-container {
+    background-color: #fbefe3;
+    height: 60px;
+    width: 60px;
+    padding-top: 15px;
+    padding-bottom:7px;
+    padding-right: 20px;
+    padding-left: 17px;
+    border-radius: 40px;
+}
+
+.foot-para {
+    color: #000000;
+    font-size: 18px;
+    font-family: "Roboto";
+}
+
+.foot-head {
+    color: #DE3163;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Roboto";
+}
+
+
+
+.foot-para1 {
+    color: #000000;
+    font-size: 18px;
+    font-family: "Roboto";
+}
